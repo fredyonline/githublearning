@@ -1,0 +1,63 @@
+.logo{
+    height: 70px;
+    width: 70px;
+}
+
+.navbarkapsayici{
+    background-color: #7AB4FF;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.nav-link{
+    color: #2C83F5;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+
+@media (min-width: 768px) {
+    .nav-item{
+        margin-top: 20px;
+        transition: all .5s ease;
+    }
+    
+    .nav-item:hover{
+        padding-top: 17px;
+    }
+}
+
+
+
+@media (max-width: 768px) { 
+
+    .navbarkapsayici{
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+    
+    .nav-item{
+        margin-top: 15px;
+        transition: all .5s ease;
+    }
+
+    .nav-item:hover:not(.logonav){
+        background-color: #2C83F5;
+        color: #7AB4FF;
+        padding-left: 40px;
+        scroll-padding-top: 17px;
+    }
+    .nav-link:hover{
+        color: #7AB4FF;
+    }
+
+ }
+ /* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #718AAB; }
+.My-Color-Theme-2-hex { color: #7AB4FF; }
+.My-Color-Theme-3-hex { color: #2C83F5; }
+.My-Color-Theme-4-hex { color: #A86E00; }
+.My-Color-Theme-5-hex { color: #F5AF2C; }
+
